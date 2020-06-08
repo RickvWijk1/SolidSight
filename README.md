@@ -1,11 +1,4 @@
 <!--
-*** Thanks for checking out this README Template. If you have a suggestion that would
-*** make this better, please fork the repo and create a pull request or simply open
-*** an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
 *** To avoid retyping too much info. Do a search and replace for the following:
 *** github_username, repo, twitter_handle, email
 -->
@@ -78,17 +71,12 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo`, `twitter_handle`, `email`
-
-
 ### Built With
 
-* []()
-* []()
-* []()
-
+* [Yassin Samuels](https://github.com/YassinSamuels)
+* [Rick van Wijk](https://github.com/RickvWijk1)
+* [Jordi Franssen]()
+* [Maik Henckens](#)
 
 
 <!-- GETTING STARTED -->
