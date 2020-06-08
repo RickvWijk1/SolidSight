@@ -75,7 +75,7 @@
 * [Yassin Samuels](https://github.com/YassinSamuels)
 * [Rick van Wijk](https://github.com/RickvWijk1)
 * [Jordi Franssen](https://github.com/Lampenkap007)
-* [Maik Henckens](#https://github.com/DankTank)
+* [Maik Henckens](https://github.com/DankTank)
 
 
 
