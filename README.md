@@ -153,9 +153,11 @@ Project Link: [https://github.com/github_username/repo](https://github.com/githu
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [Joris Ariëns](#)
+* [Maikel Putman](#)
+* [Bram Tuns](#)
+* [Ferry Wonders](#)
+* [Tim Deynen](#)
 
 
 
@@ -164,15 +166,15 @@ Project Link: [https://github.com/github_username/repo](https://github.com/githu
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-url]: https://github.com/RickvWijk1/SolidSight/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[forks-url]: hhttps://github.com/RickvWijk1/SolidSight/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-url]: https://github.com/RickvWijk1/SolidSight/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[issues-url]: https://github.com/RickvWijk1/SolidSight/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://nl.linkedin.com/in/jordi-franssen-71177619a
 [product-screenshot]: images/screenshot.png
