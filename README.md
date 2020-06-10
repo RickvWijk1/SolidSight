@@ -136,7 +136,8 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Geen licentie is hier aan toegepast. Eerst beste licentie zal MIT license zijn.
+<!-- Distributed under the MIT License. See `LICENSE` for more information. -->
 
 
 
@@ -157,13 +158,13 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
 [contributors-url]: https://github.com/RickvWijk1/SolidSight/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: hhttps://github.com/RickvWijk1/SolidSight/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/RickvWijk1/SolidSight
+[forks-url]: https://github.com/RickvWijk1/SolidSight/network/members
+[stars-shield]: https://img.shields.io/github/stars/RickvWijk1/SolidSight
 [stars-url]: https://github.com/RickvWijk1/SolidSight/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/RickvWijk1/SolidSight
 [issues-url]: https://github.com/RickvWijk1/SolidSight/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/RickvWijk1/SolidSight
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://nl.linkedin.com/in/jordi-franssen-71177619a
