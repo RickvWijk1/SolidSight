@@ -1,0 +1,80 @@
+/*
+   * Navbar
+*/
+.logo {
+    color: black;
+    font-size: 2rem;
+    width: 11rem;
+    padding-left: 5rem;
+}
+
+.solid {
+    width: 100%;
+}
+
+.sight {
+    margin-top: -33px;
+    width: 100%;
+    text-align: right;
+}
+
+.navbar-brand {
+    /* padding-top: .75rem;
+    padding-bottom: .75rem; */
+    font-size: 1rem;
+    /* background-color: rgba(0, 0, 0, .25); */
+    /* box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25); */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background: linear-gradient(143.57deg, #1CE8FD 0%, #0586FF 70.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.form-control {
+    height: calc(2.25rem + 2px);
+    background-color: #e5e5e5;
+    border-radius: 20px !important;
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+.logo-align {
+    padding-left: 0px!important;
+    margin-left: -3%;
+}
+
+/*
+   * Jumbotron
+*/
+
+.bg-solidsight {
+    background: linear-gradient(143.57deg, #1CE8FD 0%, #0586FF 70.83%);
+}
+
+/*
+   * Utilities
+*/
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
