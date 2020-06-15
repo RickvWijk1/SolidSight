@@ -10,7 +10,7 @@ function searchFunction() {
     gridItem = allcontainer.getElementsByClassName('location-image');
 
     //keep running loop if 'i' is less than the grid item's length
-    for (i = 0; i < gridItem.length; i++) {
+    for (i = 1; i < gridItem.length; i++) {
         h4 = gridItem[i].getElementsByTagName('h4')[0];
 
         //the text in h4 is set to uppercase in order too match the input value of filter (a.k.a. the search bar) which is also set to uppercase
