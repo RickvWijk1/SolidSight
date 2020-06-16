@@ -4,12 +4,29 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
+
+
+#screen1 {
     background: linear-gradient(126.45deg, #1CE8FD 0%, #0586FF 70.83%);
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
+
+}
+
+#screen2 {
+    background: linear-gradient(126.45deg, #1CE8FD 0%, #0586FF 70.83%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+
 }
 
 .logo {
@@ -74,12 +91,124 @@ body {
     text-decoration: none;
     display: block;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .dropdown-content p:hover {
     background-color: #ddd;
+    border-radius: 5px;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.preferences {
+    width: 80%;
+    height: 70%;
+    max-width: 1000px;
+    background: #FAFAFA;
+    position: relative;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.banner {
+    height: 15%;
+    width: 80%;
+    max-width: 1000px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.logoSmall {
+    color: black;
+    font-size: 40px;
+    width: 160px;
+}
+
+.solidSmall {
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.sightSmall {
+    font-family: 'Comfortaa', cursive;
+    margin-top: -12px;
+    text-align: right;
+
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.tab {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tab:hover {
+    cursor: pointer;
+}
+
+.next {
+    background: #0586FF;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 10px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    bottom: -45px;
+    right: 50px;
+}
+
+.next:hover {
+    cursor: pointer;
+}
+
+#welcome {
+    background: #FAFAFA;
+}
+
+#preferences2 {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+#preferences3 {
+    display: none;
+}
+
+#preferences4 {
+    display: none;
+}
+
+.iframe {
+    width: 100%;
+    height: 100%;
 }

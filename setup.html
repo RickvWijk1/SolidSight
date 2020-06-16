@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolidSight-Setup</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="js.js"></script>
+</head>
+
+<body>
+    <div id="screen2">
+        <div class="banner">
+            <div class="logoSmall">
+                <p class="solidSmall">Solid</p>
+                <p class="sightSmall">Sight</p>
+            </div>
+            <div class="navbar">
+                <div class="tab" id="welcome" onclick="gotoWelcome()">
+                    <p>Welcome</p>
+                </div>
+                <div class="tab" id="interests" onclick="gotoInterests()">
+                    <p>Interests</p>
+                </div>
+                <div class="tab" id="autoadjust" onclick="gotoAutoadjust()">
+                    <p>Auto Adjust</p>
+                </div>
+                <div class="tab" id="notifications" onclick="gotoNotifications()">
+                    <p>Notifications</p>
+                </div>
+            </div>
+        </div>
+        <div class="preferences">
+            <div id="preferences1">
+                <p>Welcome (NAME)</p>
+            </div>
+            <div id="preferences2"> <iframe class="iframe" src="POC interesse selectie/index.html"
+                    frameborder="0"></iframe>
+            </div>
+            <div id="preferences3">
+                <p>Auto adjust your interests?</p>
+            </div>
+            <div id="preferences4">
+                <p>Receive notifications</p>
+            </div>
+
+            <div id="next" class="next" onclick="next()"><i class="fas fa-arrow-right"></i></div>
+        </div>
+    </div>
+</body>
+
+</html>
