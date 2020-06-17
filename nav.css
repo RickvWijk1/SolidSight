@@ -1,0 +1,93 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (min-width: 768px) {
+    .navbar-brand.abs {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------- Navigatie balk top */
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    background: linear-gradient(143.57deg, #1CE8FD 0%, #0586FF 70.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rounded-pill {
+    border-radius: 1rem !important;
+}
+
+.responsiveImg {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+}
+
+/* ---------------------------------------------------------------------------------------------------- Midden Jumbotron */
+.card {
+    border: none !important;
+}
+
+.p-uitgelicht {
+    color: rgba(255, 255, 255, .5);
+    margin-bottom: 0rem;
+}
+
+#colUitgelicht {
+    margin-top: 14rem;
+}
+
+#colHighlightPadding {
+    background-color: white;
+    border-radius: 0.4rem;
+    width: 100%;
+    height: 100%;
+}
+
+#colLowlightPadding {}
+
+.cardBackgroundSolid {
+    background-image: url(img/gradient1.jpg);
+}
+
+.BGSS {
+    position: absolute;
+    width: 1366px;
+    height: 550px;
+    left: 37px;
+    top: 96px;
+
+    background: linear-gradient(143.57deg, #1CE8FD 0%, #0586FF 70.83%);
+}
+
+.miniContainerUitgelichtSS {
+    /* Left panel */
+    position: absolute;
+    width: 292px;
+    height: 139px;
+    left: 112px;
+    top: 370px;
+}
+
+.miniContainerUitgelicht1SS {
+    /* Uitgelicht voor jou */
+    position: absolute;
+    width: 138px;
+    height: 18px;
+    left: 112px;
+    top: 370px;
+
+    font-family: HeadlandOne;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    color: rgba(255, 255, 255, 0.5);
+}
