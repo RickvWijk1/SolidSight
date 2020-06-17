@@ -1,0 +1,384 @@
+html, body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #F7F7F7;
+    color: white;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    height: 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .navbar-brand.abs {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------- Navigatie balk top */
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    background: linear-gradient(143.57deg, #1CE8FD 0%, #0586FF 70.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rounded-pill {
+    border-radius: 1rem !important;
+}
+
+.responsiveImg {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+}
+
+/* ---------------------------------------------------------------------------------------------------- Midden Jumbotron */
+.card {
+    border: none !important;
+}
+
+.p-uitgelicht {
+    color: rgba(255, 255, 255, .5);
+    margin-bottom: 0rem;
+}
+
+#colUitgelicht {
+    margin-top: 14rem;
+}
+
+#colHighlightPadding {
+    background-color: white;
+    border-radius: 0.4rem;
+    width: 100%;
+    height: 100%;
+}
+
+#colLowlightPadding {}
+
+.cardBackgroundSolid {
+    background-image: url(img/gradient1.jpg);
+}
+
+.BGSS {
+    position: absolute;
+    width: 1366px;
+    height: 550px;
+    left: 37px;
+    top: 96px;
+
+    background: linear-gradient(143.57deg, #1CE8FD 0%, #0586FF 70.83%);
+}
+
+img {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    background-position: center;
+    cursor: pointer;
+}
+
+.logo {
+    color: black;
+    font-size: 2rem;
+    width: 11rem;
+    padding-left: 5rem;
+}
+
+.solid {
+    width: 100%;
+}
+
+.sight {
+    margin-top: -33px;
+    width: 100%;
+    text-align: right;
+}
+
+.bg-light{
+    background-color: #fff !important;
+}
+
+.navbar-brand {
+    /* padding-top: .75rem;
+    padding-bottom: .75rem; */
+    font-size: 1rem;
+    /* background-color: rgba(0, 0, 0, .25); */
+    /* box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25); */
+}
+
+.nav-item{
+    position: relative;
+}
+
+.bekijk-btn{
+    font-size: 0.8vw;
+    background-color:#fff; 
+    border: none; 
+    border-radius: 10px; 
+    
+    padding: 6px;
+}
+
+.bekijk-btn:hover{
+    background-color: #bdbcbc;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 1200px) {
+    .bekijk-btn{
+       
+
+    }
+}
+
+.activePageCategories{
+    position: absolute;
+    align-self: center;
+    padding: 2px 35px;
+    bottom: 4%;
+    border-radius: 2px;
+    margin-left: 10%;
+    background-color: #50B1FF;
+}
+
+.activePageHome{
+    position: absolute;
+    align-self: center;
+    padding: 2px 17px;
+    bottom: 4%;
+    border-radius: 2px;
+    margin-left: 8%;
+    background-color: #50B1FF;
+}
+
+@media only screen and (max-width: 890px) {
+    .activePageHome{
+        display: none;
+    }
+}
+@media only screen and (max-width: 890px) {
+    .text-mover {
+        position: absolute;
+        bottom: 30%;
+        left: 5%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background: linear-gradient(143.57deg, #1CE8FD 0%, #0586FF 70.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.form-control {
+    height: calc(2.25rem + 2px);
+    background-color: #e5e5e5;
+    border-radius: 20px !important;
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+.logo-align {
+    padding-left: 0px!important;
+    margin-left: -3%;
+}
+
+/*
+   * Jumbotron
+*/
+
+.bg-solidsight {
+    background: linear-gradient(143.57deg, #1CE8FD 0%, #0586FF 70.83%);
+}
+
+/*
+   * Utilities
+*/
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.location-image a {
+    text-decoration: none;
+}
+
+.allcontainer h2 {
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 10%;
+    margin-bottom: 0.6%;
+}
+
+h4 {
+    display: block;
+    font-weight: normal;
+    margin: 0;
+    font-size: unset;
+    line-height: unset;
+}
+
+.allcontainer {
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+
+.grid-container-small {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-row-gap: 0.3%;
+    grid-column-gap: 0.3%;
+}
+
+.grid-container-big {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-row-gap: 0.8%;
+    grid-column-gap: 0.3%;
+}
+
+.location-image {
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.location-image:hover {
+    background: #50B1FF;
+}
+
+
+h5 {
+    font-weight: lighter;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: .25rem;
+    background: linear-gradient(143.57deg, #1CE8FD 0%, #0586FF 70.83%);
+    padding: 2.5em 3em;
+}
+
+.text-container {
+    flex: 1;
+}
+
+.text-mover {
+    position: absolute;
+    bottom: 30%;
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapperGrid {
+    flex: 3;
+}
+    
+
+
+.location-image h4:hover {
+    color: #fff;
+}
+
+.location-image:hover {
+    background-color: #50B1FF;
+    cursor: pointer;
+}
+
+.location-image:hover h4 {
+    color: #fff;
+}
+
+.location-image h4 {
+    margin-left: 7%;
+    margin-bottom: 5%;
+    bottom: 0;
+    color: #50B1FF;
+}
+
+.wrapperGrid img{
+    width: 90% !important;
+}
+
+/* for touch screen devices */
+
+@media only screen and (max-width: 600px) {
+    .grid-container-small {grid-row-gap: 1%;
+        grid-column-gap: 0%;
+    }
+
+    .allcontainer h2{
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .grid-container-big {grid-row-gap: 1%;
+        grid-column-gap: 0%;
+    }
+
+   
+    }
+
+@media(hover: hover) and (pointer: fine) {
+    .location-image:hover {
+        background-color: #50B1FF;
+    }
+}
+
+.miniContainerUitgelichtSS {
+    /* Left panel */
+    position: absolute;
+    width: 292px;
+    height: 139px;
+    left: 112px;
+    top: 370px;
+}
+
+.miniContainerUitgelicht1SS {
+    /* Uitgelicht voor jou */
+    position: absolute;
+    width: 138px;
+    height: 18px;
+    left: 112px;
+    top: 370px;
+
+    font-family: HeadlandOne;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    color: rgba(255, 255, 255, 0.5);
+}
