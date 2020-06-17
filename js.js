@@ -21,6 +21,9 @@ function next() {
         document.getElementById("notifications").style.background = "#FAFAFA";
         document.getElementById("next").innerHTML = "<i class='fas fa-check'></i>"
     }
+    if (preferencesTab == 4) {
+        window.open("https://i404489.hera.fhict.nl");
+    }
 }
 
 function gotoWelcome() {

@@ -202,10 +202,14 @@
 
 #preferences3 {
     display: none;
+    text-align: center;
+    font-size: 20px;
 }
 
 #preferences4 {
     display: none;
+    text-align: center;
+    font-size: 20px;
 }
 
 .iframe {
